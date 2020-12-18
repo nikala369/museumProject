@@ -1,0 +1,132 @@
+<html>
+
+<head>
+ <title>Personal Project</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="JavaScript basics for intern-juniors">
+ <meta name="keywords"
+  content="Javascript documentation (Introduction, What you should already know, Javascript and Java...)" />
+<link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <div id="page-wrap">
+  <div class="container1">
+   <!--Container First Wrap-->
+   <header>
+    <nav>
+     <div class="humburger" onclick="myFunction(this)">
+      <div class="hum1"></div>
+      <div class="hum2"></div>
+      <div class="hum3"></div>
+     </div>
+     <ul>
+      <li><a class="activelink" href="#">EXHIBITIONS</a></li>
+      <li><a href="#">EVENTS</a></li>
+      <li><a class="displaynone" href="#">COMMUNITY</a></li>
+     </ul>
+    </nav>
+    <h1 class="liheading">ARTICS</h1>
+   </header>
+   <section>
+    <header>
+     <h1 class="centerheading"><span class="headingspan">NOVEMBER 21, 2020 - </span><br> JANUARY 5, 2021</h1>
+    </header>
+    <h1 class="backgroundheading">DINOSAURS<br>TO COME TO LIFE</h1>
+   </section>
+   <img class="image1" src="https://i.pinimg.com/originals/cf/5e/c8/cf5ec899d25cfc3eb0570c4c43b76ad2.png" width="560"
+    alt="Dinosaure image with big teeth" />
+  </div>
+
+  <aside>
+   <div class="container2">
+    <div class="divanimation1"></div>
+    <div class="divanimation1"></div>
+    <div class="divanimation1"></div>
+    <div class="divanimation1"></div>
+    <div class="divanimation1"></div>
+    <div class="divanimation1"></div>
+    <div class="divanimation1 divbottom"></div>
+   </div>
+
+   <div class="container3">
+    <section>
+     <img class="image2" src="https://assets.stickpng.com/thumbs/5887bbdabc2fc2ef3a18602b.png"
+      alt="Little dinosaure with green background" />
+     <article>
+      <header class="containerheader3">
+       <span>order summary</span>
+       <h1 class="containerheading3">DINOSAURS TO COME TO LIFE</h1>
+      </header>
+      <div class="line1"></div>
+      <img class="imagearrow" src="https://www.flaticon.com/svg/static/icons/svg/929/929758.svg" width="40px"
+       alt="Black line arrows first one" />
+      <ul class="mainul3">
+       <li class="nav-link2">22 NOV</li>
+       <li class="nav-link2">23 NOV</li>
+       <li class="nav-link2 backgroundlink">24 NOV</li>
+       <li class="nav-link2">25 NOV</li>
+       <li class="nav-link2">26 NOV</li>
+      </ul>
+      <img class="imagearrow2" src="https://www.flaticon.com/svg/static/icons/svg/929/929763.svg" width="40px"
+       alt="Black line arrows second one" />
+      <div class="line2"></div>
+     </article>
+    </section>
+    <!--Ticket section-->
+    <section class="ticketsection">
+     <div class="first_ticket_line">
+      <img id="down-arrow1"
+       src="https://icons-for-free.com/iconfiles/png/512/arrow+circle+circle+down+drop+stroke+arrow+icon-1320185739506291043.png"
+       class="arrow_little_image2" width="30px" height="30px" alt="" />
+      <div id="quantity1" class="quantity">0</div>
+      <img id="up-arrow1" class="arrow_little_image"
+       src="https://icons-for-free.com/iconfiles/png/512/arrow+circle+arrow+top+arrow+up+circle+top+up+icon-1320185739354890513.png"
+       width="30px" height="30px" alt="" />
+      <p class="whos_ticket">Adult ticket</p>
+      <div class="total">€<span id="adult-ticket">0</span></div>
+     </div>
+
+     <div class="second_ticket_line">
+      <img id="down-arrow2"
+       src="https://icons-for-free.com/iconfiles/png/512/arrow+circle+circle+down+drop+stroke+arrow+icon-1320185739506291043.png"
+       class="arrow_little_image2" width="30px" height="30px" alt="" />
+      <div id="quantity2" class="quantity">0</div>
+      <img id="up-arrow2" class="arrow_little_image"
+       src="https://icons-for-free.com/iconfiles/png/512/arrow+circle+arrow+top+arrow+up+circle+top+up+icon-1320185739354890513.png"
+       width="30px" height="30px" alt="" />
+      <p class="whos_ticket">Children ticket</p>
+      <div class="total1">€<span id="children-ticket">0</span></div>
+     </div>
+     <p class="maintotal">TOTAL: €<span id="main-total">0</span></p>
+    </section>
+
+    <div id="lastsection">
+     <div class="linelast"> </div>
+     <button class="checkout" type="button"><span class="controlcheckout">CHECKOUT</span></button>
+    </div>
+   </div>
+  </aside>
+
+ </div>
+ <script src="script.js"></script>
+</body>
+
+</html>
