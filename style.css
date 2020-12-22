@@ -1031,5 +1031,28 @@ aside .container3 {
   .whos_ticket {
     margin: 10px;
   }
+  .total {
+    right: 50px;
+  }
+  .total1{ 
+    right: 50px;
+  }
+  .maintotal {
+    right: 50px;
+    margin-top: 15px;
+  }
+  .checkout {
+  font-size: 10px;
+  letter-spacing: 0px;
+  margin-left:-15px;
+  padding: 0px;
+    height: 100px;
+  }
+  .checkout:hover {
+    width: 100%;
+    height: 126px;
+    letter-spacing: 0px;
+    margin-left: -15px;
+  }
 }
 
