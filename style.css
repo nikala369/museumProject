@@ -257,7 +257,9 @@ aside .container3 {
   letter-spacing: 1px;
   cursor: pointer;
 }
-
+.nav-link2:hover {
+  
+}
 .backgroundlink {
   border: 2px solid black;
   border-radius: 50px 50px 40px 40px;
