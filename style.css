@@ -256,11 +256,8 @@ aside .container3 {
   margin: 25px;
   letter-spacing: 1px;
   cursor: pointer;
-  transition: 1s ease-in-out;
 }
-.nav-link2:hover {
-  transition: 0.2s;
-}
+
 .backgroundlink {
   border: 2px solid black;
   border-radius: 50px 50px 40px 40px;
