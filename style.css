@@ -966,4 +966,70 @@ aside .container3 {
     top: 125px;
   }
 }
+.liheading:hover {
+  letter-spacing: 2.5px;
+  color:  #af93e0;
 }
+}
+
+@media only screen and (max-width: 320px) { 
+  .container1 {
+     width: 100%;
+     margin: 0px;
+  }
+  nav li {
+    margin: 15px;
+    padding-top: 5px;
+    
+  }
+  nav a {
+    letter-spacing: 3px;
+  }
+  .image1{
+     left:-10px;
+  }
+  .backgroundheading {
+    letter-spacing: 0px;
+    font-size: 35px;
+  }
+  .image2{
+    left:20.5%;
+  }
+  
+  .containerheader3{
+    margin-left: -20px;
+    margin-top: 10px;
+
+  }
+  .containerheading3 {
+    font-size: 22px;
+  }
+  .containerheader3 > span {
+    position: absolute; 
+    left: 27.5%;
+    top: 270px;
+    
+  }
+  .mainul3 {
+    margin-top: 20px;
+    margin-left: -27.5px;
+    padding: 25px;
+  }
+  .nav-link2 {
+    letter-spacing: 0px;
+    margin: 10px;
+    font-size: 17px;
+  }
+  .first_ticket_line {
+    padding-left: 20px;
+    
+  }
+  .second_ticket_line {
+    padding-left: 20px;
+   
+  }
+  .whos_ticket {
+    margin: 10px;
+  }
+}
+
