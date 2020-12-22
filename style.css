@@ -367,8 +367,8 @@ aside .container3 {
   border: none;
   background-color: #d1ff8a;
   animation: lightSpeedInLeft;
-  animation-duration: 2.5s;
-  animation-delay: 2.4s;
+  animation-duration: 2.6s;
+  animation-delay: 0.1s;
 }
 .controlcheckout {
   margin-left: 10px;
