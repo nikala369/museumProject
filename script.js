@@ -47,9 +47,12 @@ let minus1 = document.getElementById("down-arrow1");
 let countForMinus = document.getElementById("quantity1");
 let minusAdult = document.getElementById("adult-ticket");
 minus1.addEventListener("click", arrowminus);
-
+ 
 // minus adult and children prices
 function arrowminus() {
+  if(parseInt(countForMinus.innerHTML) <= 0) {
+    minusPlus["stopCounting"] = true;
+   }
   // Min price 0 ticket = 0$
   if (minusPlus["stopCounting"] === false) {
     countForMinus.innerHTML = parseInt(countForMinus.innerHTML) - 1;
@@ -73,6 +76,10 @@ let minusChildren = document.getElementById("children-ticket");
 minus2.addEventListener("click", arrowMinus2);
 
 function arrowMinus2() {
+  if(parseInt(countForMinus2.innerHTML) <= 0) {
+    minusPlus["stopCounting"] = true;
+   }
+  
   if (minusPlus["stopCounting"] === false) {
     countForMinus2.innerHTML = parseInt(countForMinus2.innerHTML) - 1;
     childrenPrice();
